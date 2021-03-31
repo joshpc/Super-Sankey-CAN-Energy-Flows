@@ -8,7 +8,7 @@ To setup your environment, either run
 ```
 conda config --add channels conda-forge
 conda config --set channel_priority strict
-conda env create --file environment.yaml
+conda env create --file environment.yml
 conda activate supersankey
 python -m ipykernel install --user --name=supersankey
 ```
